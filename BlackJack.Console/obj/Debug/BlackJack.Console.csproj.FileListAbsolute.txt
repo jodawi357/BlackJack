@@ -5,3 +5,6 @@ C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Cons
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Console.pdb
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\obj\Debug\BlackJack.Console.exe
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\obj\Debug\BlackJack.Console.pdb
+C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Repo.dll
+C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Repo.pdb
+C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\obj\Debug\BlackJack.Console.csproj.CopyComplete

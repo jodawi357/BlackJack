@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlackJack.Repo
+namespace BlackJackRepo
 {
     public class CardRepo
     {
+        Random rando = new Random();
         List<Card> _deck = new List<Card>();
         List<Card> _discard = new List<Card>();
         List<Card> _playerHand = new List<Card>();
@@ -30,9 +31,14 @@ namespace BlackJack.Repo
         {
             foreach(Card card in hand)
             {
-                hand.Remove(card);
-                _discard.Add(card);
+                    _discard.Add(card);
             }
+            hand.Clear();
+        }
+        public void DiscardBothHands()
+        {
+            DiscardHand(_playerHand);
+            DiscardHand(_dealerHand);
         }
         public List<Card> CreateDeck() //Change suits to int and make ONE loop
         {
@@ -70,18 +76,25 @@ namespace BlackJack.Repo
         public Card DrawACard()
         {
             int deckCount = _deck.Count();
-            Random rando = new Random();
-            int rCard = rando.Next(1, deckCount + 1);
+            int rCard = rando.Next(1, (deckCount));
             Card card = _deck[rCard];
             _deck.Remove(card);
             return card;
         }
-        public void Deal(List<Card> _player, List<Card> _dealer)
+        public void DealPlayer() 
         {
-            _player.Add(DrawACard());
-            _dealer.Add(DrawACard());
-            _player.Add(DrawACard());
-            _dealer.Add(DrawACard());
+            _playerHand.Add(DrawACard());
+        }
+        public void DealDealer() 
+        {
+            _dealerHand.Add(DrawACard());
+        }
+        public void DealOpen()
+        {
+            DealPlayer();
+            DealDealer();
+            DealPlayer();
+            DealDealer();
         }
         public List<Card> GetPlayerHand()
         {
@@ -114,14 +127,41 @@ namespace BlackJack.Repo
                     return card.Value;
             }
         }
-        public bool CheckBust(List<Card> hand)
+        public string CheckHand(List<Card> hand)
         {
-            if (ScoreHand(hand) > 21) { return true; }
-            return false;
+            if (ScoreHand(hand) > 21) { return "bust"; }
+            if (ScoreHand(hand) == 21) { return "21"; }
+            return null;
         }
-        public string CompareHands(List<Card> player, List<Card> dealer)
+        //public string CompareHands(List<Card> player, List<Card> dealer)
+        //{
+        //    return (ScoreHand(player) > ScoreHand(dealer)) ? "player" : "dealer";
+        //}
+        public bool DealerTurn()
         {
-            return (ScoreHand(player) > ScoreHand(dealer)) ? "player" : "dealer";
+            
+            while(1 > 0)
+            {
+                if(ScoreHand(_dealerHand) < ScoreHand(_playerHand) || ScoreHand(_dealerHand) < 17)
+                {
+                    DealDealer();
+                    string checkHand = CheckHand(_dealerHand);
+                    switch (checkHand)
+                    {
+                        case "bust":
+                            return true;
+                        case "21":
+                            return false;
+                        default:
+                            break;
+                    }
+                    
+                }
+                else
+                {
+                    return false;
+                }
+            }
         }
     }
 }
