@@ -19,7 +19,6 @@ namespace BlackJack.Console
             System.Console.WriteLine("BlackJack Table\n\n" +
                 "Press 'Spacebar' to have a seat.\n" +
                 "Press any other key to exit.");
-            repo.CreateDeck();
             bool menuLoop = true;
             var keySwitch = System.Console.ReadKey().Key;
             while (menuLoop == true)
@@ -40,6 +39,8 @@ namespace BlackJack.Console
         }
         public void StartGame()
         {
+            bool newDeck = repo.CreateDeck();
+            if(newDeck == true) { System.Console.Beep(); }
             repo.DealOpen();
             DisplayPlayerScreen();
         }
@@ -111,6 +112,9 @@ namespace BlackJack.Console
             string valueString;
             switch (value)
             {
+                case 1:
+                    valueString = "A";
+                    break;
                 case 11:
                     valueString = "J";
                     break;

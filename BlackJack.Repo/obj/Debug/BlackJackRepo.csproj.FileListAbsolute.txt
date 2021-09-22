@@ -4,3 +4,9 @@ C:\Users\Derek\source\repos\BlackJack\BlackJack.Repo\obj\Debug\BlackJackRepo.csp
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Repo\obj\Debug\BlackJackRepo.csproj.CoreCompileInputs.cache
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Repo\obj\Debug\BlackJack.Repo.dll
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Repo\obj\Debug\BlackJack.Repo.pdb
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\bin\Debug\BlackJack.Repo.dll
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\bin\Debug\BlackJack.Repo.pdb
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\obj\Debug\BlackJackRepo.csproj.AssemblyReference.cache
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\obj\Debug\BlackJackRepo.csproj.CoreCompileInputs.cache
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\obj\Debug\BlackJack.Repo.dll
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Repo\obj\Debug\BlackJack.Repo.pdb

@@ -8,3 +8,13 @@ C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\obj\Debug\BlackJack.Cons
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Repo.dll
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\bin\Debug\BlackJack.Repo.pdb
 C:\Users\Derek\source\repos\BlackJack\BlackJack.Console\obj\Debug\BlackJack.Console.csproj.CopyComplete
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\bin\Debug\BlackJack.Console.exe.config
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\bin\Debug\BlackJack.Console.exe
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\bin\Debug\BlackJack.Console.pdb
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\bin\Debug\BlackJack.Repo.dll
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\bin\Debug\BlackJack.Repo.pdb
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\obj\Debug\BlackJack.Console.csproj.AssemblyReference.cache
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\obj\Debug\BlackJack.Console.csproj.CoreCompileInputs.cache
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\obj\Debug\BlackJack.Console.csproj.CopyComplete
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\obj\Debug\BlackJack.Console.exe
+C:\Users\Squid\Desktop\ElevenFiftyProjects\DotNetProjects\GroupProject\source\repo\BlackJackGame\BlackJack.Console\obj\Debug\BlackJack.Console.pdb
